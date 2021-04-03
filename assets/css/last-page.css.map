@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,6CAA6C,CAAC,YAAY,CACpE,SAAS;CACZ",
+    "sources": [
+        "../../last-page.scss"
+    ],
+    "names": [],
+    "file": "last-page.css"
+}

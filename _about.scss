@@ -1,0 +1,101 @@
+.about {
+  background: #5373fd url(/content/about/about-bcg.png) center/cover no-repeat;
+  padding: 204px 0px 132px;
+  position: relative;
+
+  &__title {
+    margin-bottom: 60px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Aleo Regular", sans-serif;
+  }
+
+  &__text-content {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #e8e8e8;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+
+    &_margin {
+      margin-bottom: 35px;
+    }
+
+    &_margin2 {
+      margin-bottom: 50px;
+    }
+  }
+
+  &__button {
+    width: 225px;
+    height: 60px;
+    background-color: #5373fd;
+    padding: 24px 0 24px 39px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  &__href {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: "Aleo Regular";
+    text-transform: uppercase;
+  }
+
+  &__img1 {
+    position: absolute;
+    top: 123px;
+    left: 712px;
+  }
+
+  &__img2 {
+    position: absolute;
+    top: 350px;
+    left: 837px;
+  }
+}
+
+.special-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0;
+}
+
+.about-footer {
+  background-color: #333333;
+  width: 100%;
+  padding: 100px 50px 120px;
+}
+&__title {
+  display: inline;
+  font-size: 36px;
+  color: #e8e8e8;
+  font-weight: 400;
+  font-family: "Aleo Regular";
+  text-align: center;
+
+  &:nth-child(2) {
+    margin: 0px 170px;
+  }
+}
+
+.title {
+  &__1::before {
+    content: url(/content/about/about-icon1.svg);
+  }
+
+  &__2::before {
+    content: url(/content/about/about-icon2.svg);
+  }
+
+  &__3::before {
+    content: url(/content/about/about-icon3.svg);
+  }
+}

@@ -1,0 +1,56 @@
+.second-page {
+  background: #333333 url(/content/second_page/bcg_second.png) center/cover
+    no-repeat;
+  padding: 230px 0px 100px 570px;
+
+  &__book-now {
+    max-width: 541px;
+    width: 100%;
+    padding: 50px 72px 50px 27px;
+    background-color: #232323;
+    opacity: 0.9;
+  }
+
+  &__title {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    margin-bottom: 19px;
+  }
+
+  &__title::before {
+    content: ("Spain");
+    display: block;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #e8e8e8;
+    font-family: "Josefin Sans";
+    text-transform: none;
+    margin-bottom: 30px;
+  }
+
+  &__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #e8e8e8;
+    font-family: "Josefin Sans";
+    margin-bottom: 10px;
+  }
+
+  &__button {
+    outline: none;
+    border: none;
+    max-width: 225px;
+    width: 100%;
+    background-color: #5373fd;
+    padding: 24px 62px;
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Aleo Regular";
+  }
+}
